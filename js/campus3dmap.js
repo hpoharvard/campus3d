@@ -21,7 +21,8 @@
     ], function(Map, SceneView, SceneLayer, Camera, SimpleRenderer, Popup, MeshSymbol3D,
       FillSymbol3DLayer, MapImageLayer, query) {
 
-      var mapUrl ="https://webgis.labzone.dce.harvard.edu/arcgis/rest/services/Hosted/map3d_WSL/SceneServer";
+      //var mapUrl ="https://webgis.labzone.dce.harvard.edu/arcgis/rest/services/Hosted/map3d_WSL/SceneServer";
+      //var mapUrl = "https://webgis.labzone.dce.harvard.edu/arcgis/rest/services/Hosted/campus3dweb1/SceneServer"
       
       // The clipping extent for the scene
       var cambridgeExtent = { // autocasts as new Extent()
@@ -131,7 +132,8 @@
 
       // Create SceneLayer and add to the map
       var sceneLayer = new SceneLayer({
-        url: "https://webgis.labzone.dce.harvard.edu/arcgis/rest/services/Hosted/map3dweb_WSL/SceneServer/layers/0",
+        //url: "https://webgis.labzone.dce.harvard.edu/arcgis/rest/services/Hosted/map3dweb_WSL/SceneServer/layers/0",
+        url: "https://webgis.labzone.dce.harvard.edu/arcgis/rest/services/Hosted/campus3dweb1/SceneServer/layers/0",
         popupEnabled: true
       });
 
@@ -149,7 +151,7 @@
         new FillSymbol3DLayer({
           // If the value of material is not assigned, the default color will be grey
           material: {
-            color: [244, 247, 134]
+            color: [255, 239, 214]
           }
         })
       );
