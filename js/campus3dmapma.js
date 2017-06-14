@@ -22,7 +22,7 @@
     ], function(Map, SceneView, SceneLayer, Camera, SimpleRenderer, Popup, MeshSymbol3D,
       FillSymbol3DLayer, MapImageLayer, GraphicsLayer, query) {
 
-      var mapUrl ="https://webgis.labzone.dce.harvard.edu/arcgis/rest/services/Hosted/campus3dweb/SceneServer/layers/0";
+      var mapUrl ="https://webgis.labzone.dce.harvard.edu/arcgis/rest/services/Hosted/campus3dweb1/SceneServer/layers/0";
       var baseUrl = "https://hppm-dev.cadm.harvard.edu/arcgis/rest/services/campus3d/campus3dbaseweb/MapServer";
       // The clipping extent for the scene
       var cambridgeExtent = { // autocasts as new Extent()
