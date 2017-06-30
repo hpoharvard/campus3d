@@ -118,10 +118,6 @@
         }       
       });
 
-      
-      
-
-
       var cam = new Camera({
         heading: 6, // face due east
         tilt: 55, // looking from a bird's eye view
@@ -133,7 +129,7 @@
       // Create SceneLayer and add to the map
       var sceneLayer = new SceneLayer({
         //url: "https://webgis.labzone.dce.harvard.edu/arcgis/rest/services/Hosted/map3dweb_WSL/SceneServer/layers/0",
-        url: "https://webgis.labzone.dce.harvard.edu/arcgis/rest/services/Hosted/campus3dweb1/SceneServer/layers/0",
+        url: "https://hppm-dev.cadm.harvard.edu/arcgis/rest/services/Hosted/map3d_WSL/SceneServer/layers/0",
         popupEnabled: true
       });
 
